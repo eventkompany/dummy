@@ -45,12 +45,21 @@
             text-align: center;
         }
 
+        /* Navbar customization */
+        nav.navbar {
+            height: 80px; /* Set navbar height to 80px */
+        }
+
+        .navbar-brand {
+            margin-left: 50px; /* Move EventKompany text 50px to the right */
+        }
+
         .navbar-brand .event {
-            color: #f1c40f;
+            color: black;
         }
 
         .navbar-brand .kompany {
-            color: black;
+            color: #f1c40f;
         }
 
         .maintenance-message {
@@ -73,21 +82,17 @@
     <div class="hero-section">
         <img src="./main.png.jpg" alt="Plan Your Wedding">
         <div class="overlay">
-            <h1 class="display-5">Plan Your Events Right Here</h1>
-            <button class="btn btn-danger mt-3" style="border-radius: 30px; font-weight: bold; padding: 10px 20px;" data-bs-toggle="modal" data-bs-target="#chatModal">
-                Let's Get Started
-            </button>
+            <h1 class="display-5">Plan All Your Events Right Here</h1>
+            <div class="maintenance-message">
+                <h3>Site is still under maintenance.</h3>
+                <p>Contact <a href="mailto:info@eventkompany.com">info@eventkompany.com</a> for inquiries.</p>
+            </div>
         </div>
     </div>
 
     <!-- Footer -->
     <footer>
         <p>&copy; 2024 EventKompany. All Rights Reserved.</p>
-            <!-- Maintenance Page Message -->
-    <div class="maintenance-message">
-        <h3>Site is still under maintenance.</h3>
-        <p>Contact <a href="mailto:info@eventkompany.com">info@eventkompany.com</a> for inquiries.</p>
-    </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
