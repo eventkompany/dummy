@@ -54,46 +54,72 @@
       height: 100%;
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
+      background: radial-gradient(at center left, #001022 29%, #080808 59%);
+      color: white;
     }
+
     .hero-section {
       position: relative;
-      height: 85vh;
+      height: 90vh;
       background-image: url('./main-user.png');
       background-size: cover;
       background-position: center;
-      color: white;
       display: flex;
       align-items: center;
       justify-content: center;
       text-align: center;
     }
+
     .overlay {
-      background-color: rgba(0, 0, 0, 0.6);
-      padding: 40px;
-      border-radius: 15px;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 50px;
+      border-radius: 20px;
     }
-    footer {
-      background-color: #f8f9fa;
-      text-align: center;
-      padding: 20px 10px;
+
+    .logo-text {
+      font-size: 1.8rem;
+      font-weight: 600;
+      margin-left: 1rem;
     }
-    .navbar-brand {
-      margin-left: 30px;
-    }
+
     .event {
-      color: #000;
+      color: white;
     }
+
     .kompany {
       color: #FFB800;
+    }
+
+    .navbar {
+      background-color: #0a0a0a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+
+    a {
+      color: #FFB800;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: #111;
+      text-align: center;
+      padding: 20px;
+      border-top: 1px solid #222;
+      font-size: 0.9rem;
+      color: #bbb;
     }
   </style>
 </head>
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar navbar-light bg-light">
+  <nav class="navbar navbar-dark">
     <div class="container-fluid">
-      <span class="navbar-brand mb-0 h1">
+      <span class="navbar-brand logo-text">
         <span class="event">Event </span><span class="kompany">Kompany</span>
       </span>
     </div>
@@ -102,10 +128,10 @@
   <!-- Hero Section -->
   <section class="hero-section">
     <div class="overlay">
-      <h1 class="display-5">India's Event Marketplace</h1>
-      <p class="lead mt-3">Photographers, Caterers, Decorators, Mehandi Artists, Car Rentals & more</p>
-      <h4 class="mt-4">Coming Soon...</h4>
-      <p>Reach out at <a href="mailto:info@eventkompany.com" style="color:#FFB800">info@eventkompany.com</a></p>
+      <h1 class="display-5 fw-bold">India's Event Marketplace</h1>
+      <p class="lead mt-3">Find Photographers, Caterers, Mehandi Artists, Car Rentals & More</p>
+      <h4 class="mt-4 text-light">Launching Soon...</h4>
+      <p>Reach out at <a href="mailto:info@eventkompany.com">info@eventkompany.com</a></p>
     </div>
   </section>
 
